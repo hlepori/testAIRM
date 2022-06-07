@@ -662,149 +662,326 @@ Vehicle : + timesheet [0..*] Timesheet
 classDiagram	
 class CodeACASCapabilityType	
 <<CodeList>> CodeACASCapabilityType	
+CodeACASCapabilityType : + AIRCRAFT_IDENTIFICATION_CAPABILITY	
+CodeACASCapabilityType : + B1A	
+CodeACASCapabilityType : + B1B	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftApproachCategoryType	
 <<CodeList>> CodeAircraftApproachCategoryType	
+CodeAircraftApproachCategoryType : + A	
+CodeAircraftApproachCategoryType : + ALL	
+CodeAircraftApproachCategoryType : + B	
+CodeAircraftApproachCategoryType : + C	
+CodeAircraftApproachCategoryType : + D	
+CodeAircraftApproachCategoryType : + E	
+CodeAircraftApproachCategoryType : + H	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftAvionicsEquipmentType	
 <<CodeList>> CodeAircraftAvionicsEquipmentType	
+CodeAircraftAvionicsEquipmentType : + AIRBORNE_COLLISION_AVOIDANCE_SYSTEM_I	
+CodeAircraftAvionicsEquipmentType : + AIRBORNE_COLLISION_AVOIDANCE_SYSTEM_II	
+CodeAircraftAvionicsEquipmentType : + AIRBORNE_SEPARATION_ASSURANCE_SYSTEM	
+CodeAircraftAvionicsEquipmentType : + AUTOMATIC_DIRECTION_FINDER	
+CodeAircraftAvionicsEquipmentType : + COCKPIT_DISPLAY_OF_SURFACE_TRAFFIC_INFORMATION	
+CodeAircraftAvionicsEquipmentType : + COCKPIT_DISPLAY_OF_TRAFFIC_INFORMATION	
+CodeAircraftAvionicsEquipmentType : + ENHANCED_VISION_SYSTEM	
+CodeAircraftAvionicsEquipmentType : + GROUND_PROXIMITY_WARNING_SYSTEM	
+CodeAircraftAvionicsEquipmentType : + INERTIAL_NAVIGATION_SYSTEM	
+CodeAircraftAvionicsEquipmentType : + SURFACE_MOVING_MAP_DISPLAY	
+CodeAircraftAvionicsEquipmentType : + SYNTHETIC_VISION_SYSTEM	
+CodeAircraftAvionicsEquipmentType : + TERRAIN_AVOIDANCE_AND_WARNING_SYSTEM	
+CodeAircraftAvionicsEquipmentType : + TRAFFIC_ALERT_AND_COLLISION_AVOIDANCE_SYSTEM_I	
+CodeAircraftAvionicsEquipmentType : + TRAFFIC_ALERT_AND_COLLISION_AVOIDANCE_SYSTEM_II_VERSION_7	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftClassificationType	
 <<CodeList>> CodeAircraftClassificationType	
+CodeAircraftClassificationType : + CLEARANCE	
+CodeAircraftClassificationType : + ENGINE_NUMBER	
+CodeAircraftClassificationType : + ENGINE_TYPE	
+CodeAircraftClassificationType : + MINIMUM_APPROACH_SPEED	
+CodeAircraftClassificationType : + MTOW	
+CodeAircraftClassificationType : + OUTER_GEAR_SPAN	
+CodeAircraftClassificationType : + WING_SPAN	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftEngineNumberType	
 <<CodeList>> CodeAircraftEngineNumberType	
+CodeAircraftEngineNumberType : + 0	
+CodeAircraftEngineNumberType : + 1	
+CodeAircraftEngineNumberType : + 2	
+CodeAircraftEngineNumberType : + 2C	
+CodeAircraftEngineNumberType : + 3	
+CodeAircraftEngineNumberType : + 4	
+CodeAircraftEngineNumberType : + 6	
+CodeAircraftEngineNumberType : + 8	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftEngineType	
 <<CodeList>> CodeAircraftEngineType	
+CodeAircraftEngineType : + ELECTRIC	
+CodeAircraftEngineType : + PISTON	
+CodeAircraftEngineType : + TURBO_FAN	
+CodeAircraftEngineType : + TURBO_JET	
+CodeAircraftEngineType : + TURBO_PROP	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftEquipmentType	
 <<CodeList>> CodeAircraftEquipmentType	
+CodeAircraftEquipmentType : + EMERGENCY_LOCATOR_TRANSMITTER	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftSurvivalEquipmentType	
 <<CodeList>> CodeAircraftSurvivalEquipmentType	
+CodeAircraftSurvivalEquipmentType : + DINGHY	
+CodeAircraftSurvivalEquipmentType : + LIFE_JACKET	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftType	
 <<CodeList>> CodeAircraftType	
+CodeAircraftType : + AEROPLANE	
+CodeAircraftType : + AIRSHIP	
+CodeAircraftType : + BALLOON	
+CodeAircraftType : + GLIDER	
+CodeAircraftType : + GYROPLANE	
+CodeAircraftType : + HELICOPTER	
+CodeAircraftType : + ORNITHOPTER	
+CodeAircraftType : + POWERED_LIFT	
+CodeAircraftType : + ROTORCRAFT	
+CodeAircraftType : + SELF_SUSTAINING_POWERED_SAILPLANE	
+CodeAircraftType : + UNMANNED_AIRCRAFT	
+CodeAircraftType : + UNMANNED_FREE_BALLOON	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAircraftWingspanClassType	
 <<CodeList>> CodeAircraftWingspanClassType	
+CodeAircraftWingspanClassType : + A	
+CodeAircraftWingspanClassType : + B	
+CodeAircraftWingspanClassType : + C	
+CodeAircraftWingspanClassType : + D	
+CodeAircraftWingspanClassType : + E	
+CodeAircraftWingspanClassType : + F	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeAltitudeReportingCapabilityType	
 <<CodeList>> CodeAltitudeReportingCapabilityType	
+CodeAltitudeReportingCapabilityType : + 100_FT	
+CodeAltitudeReportingCapabilityType : + 25_FT	
+CodeAltitudeReportingCapabilityType : + INVALID	
+CodeAltitudeReportingCapabilityType : + UNKNOWN	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeClassB2TransmitPowerCapabilityType	
 <<CodeList>> CodeClassB2TransmitPowerCapabilityType	
+CodeClassB2TransmitPowerCapabilityType : + GREATER_THAN_OR_EQUAL_TO_70_WATTS	
+CodeClassB2TransmitPowerCapabilityType : + LESS_THAN_70_WATTS	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeDatalinkCommunicationCapabilityType	
 <<CodeList>> CodeDatalinkCommunicationCapabilityType	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_ATN_VDL_MODE_2	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_FANS_1/A_HFDL	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_FANS_1/A_SATCOM_INMARSAT	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_FANS_1/A_SATCOM_IRIDIUM	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_FANS_1/A_SATCOM_MTSAT	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_FANS_1/A_VDL_MODE_2	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_FANS_1/A_VDL_MODE_4	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_FANS_1/A_VDL_MODE_A	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_OVER_VDL_MODE_3	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_OVER_VDL_MODE_4	
+CodeDatalinkCommunicationCapabilityType : + CPDLC_RTCA_SC_214	
+CodeDatalinkCommunicationCapabilityType : + FANS_1A/ACARS_DATA_LINK	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeEquipmentStatusType	
 <<CodeList>> CodeEquipmentStatusType	
+CodeEquipmentStatusType : + EQUIPPED	
+CodeEquipmentStatusType : + NOT_EQUIPPED	
+CodeEquipmentStatusType : + UNKNOWN	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeHelicopterPerformanceType	
 <<CodeList>> CodeHelicopterPerformanceType	
+CodeHelicopterPerformanceType : + 1	
+CodeHelicopterPerformanceType : + 2	
+CodeHelicopterPerformanceType : + 3	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeLifeJacketEquipmentType	
 <<CodeList>> CodeLifeJacketEquipmentType	
+CodeLifeJacketEquipmentType : + F	
+CodeLifeJacketEquipmentType : + L	
+CodeLifeJacketEquipmentType : + U	
+CodeLifeJacketEquipmentType : + V	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeNoiseCertificationType	
 <<CodeList>> CodeNoiseCertificationType	
+CodeNoiseCertificationType : + CHAPTER_10	
+CodeNoiseCertificationType : + CHAPTER_11	
+CodeNoiseCertificationType : + CHAPTER_12	
+CodeNoiseCertificationType : + CHAPTER_13	
+CodeNoiseCertificationType : + CHAPTER_2	
+CodeNoiseCertificationType : + CHAPTER_3	
+CodeNoiseCertificationType : + CHAPTER_4	
+CodeNoiseCertificationType : + CHAPTER_5	
+CodeNoiseCertificationType : + CHAPTER_6	
+CodeNoiseCertificationType : + CHAPTER_7	
+CodeNoiseCertificationType : + CHAPTER_8	
+CodeNoiseCertificationType : + CHAPTER_9	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeSurfaceVehicleIdentificationType	
 <<CodeList>> CodeSurfaceVehicleIdentificationType	
+CodeSurfaceVehicleIdentificationType : + AIRCRAFT_MAINTENANCE	
+CodeSurfaceVehicleIdentificationType : + AIRPORT_MAINTENANCE	
+CodeSurfaceVehicleIdentificationType : + ATC_EQUIPMENT_MAINTENANCE	
+CodeSurfaceVehicleIdentificationType : + BAGGAGE	
+CodeSurfaceVehicleIdentificationType : + BIRD_SCARER	
+CodeSurfaceVehicleIdentificationType : + BUS	
+CodeSurfaceVehicleIdentificationType : + CATERING	
+CodeSurfaceVehicleIdentificationType : + EMERGENCY	
+CodeSurfaceVehicleIdentificationType : + FIRE	
+CodeSurfaceVehicleIdentificationType : + FOLLOW_ME	
+CodeSurfaceVehicleIdentificationType : + FUEL	
+CodeSurfaceVehicleIdentificationType : + GRASS_CUTTER	
+CodeSurfaceVehicleIdentificationType : + POLICE	
+CodeSurfaceVehicleIdentificationType : + RUNWAY_SWEEPER	
+CodeSurfaceVehicleIdentificationType : + SNOW_PLOUGH	
+CodeSurfaceVehicleIdentificationType : + TUG	
+CodeSurfaceVehicleIdentificationType : + UNKNOWN	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeSurveillanceCapabilityType	
 <<CodeList>> CodeSurveillanceCapabilityType	
+CodeSurveillanceCapabilityType : + ADS-B_1090MHZ_ADS-B_OUT	
+CodeSurveillanceCapabilityType : + ADS-B_1090MHZ_ADS-B_OUT_IN	
+CodeSurveillanceCapabilityType : + ADS-B_OUT_IN_UAT	
+CodeSurveillanceCapabilityType : + ADS-B_OUT_IN_VDL_MODE_4	
+CodeSurveillanceCapabilityType : + ADS-B_OUT_UAT	
+CodeSurveillanceCapabilityType : + ADS-B_OUT_VDL_MODE_4	
+CodeSurveillanceCapabilityType : + ADS-C_ATN	
+CodeSurveillanceCapabilityType : + ADS-C_FANS_1/A	
+CodeSurveillanceCapabilityType : + ADS_B_IN_1090_MHZ	
+CodeSurveillanceCapabilityType : + ADS_B_IN_UAT	
+CodeSurveillanceCapabilityType : + ADS_B_IN_VDL_MODE_4	
+CodeSurveillanceCapabilityType : + MODE_A	
+CodeSurveillanceCapabilityType : + MODE_A_AND_C	
+CodeSurveillanceCapabilityType : + MODE_S	
+CodeSurveillanceCapabilityType : + MODE_S_ID_NO_PRESSURE	
+CodeSurveillanceCapabilityType : + MODE_S_ID_PRESSURE_ENHANCED_SURVEILLANCE	
+CodeSurveillanceCapabilityType : + MODE_S_ID_PRESSURE_EXT_SQUITTER_ENHANCED_SURVEILLANCE	
+CodeSurveillanceCapabilityType : + MODE_S_ID_PRESSURE_EXTENDED_SQUITTER	
+CodeSurveillanceCapabilityType : + MODE_S_NO_ID_NO_PRESSURE	
+CodeSurveillanceCapabilityType : + MODE_S_NO_ID_PRESSURE	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeSurvivalEquipmentType	
 <<CodeList>> CodeSurvivalEquipmentType	
+CodeSurvivalEquipmentType : + DESERT	
+CodeSurvivalEquipmentType : + JUNGLE	
+CodeSurvivalEquipmentType : + MARITIME	
+CodeSurvivalEquipmentType : + POLAR	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeTargetTrajectoryChangeReportCapabilityType	
 <<CodeList>> CodeTargetTrajectoryChangeReportCapabilityType	
+CodeTargetTrajectoryChangeReportCapabilityType : + NO_CAPABILITY	
+CodeTargetTrajectoryChangeReportCapabilityType : + RESERVED	
+CodeTargetTrajectoryChangeReportCapabilityType : + SUPPORT_FOR_MULTIPLE_TC	
+CodeTargetTrajectoryChangeReportCapabilityType : + SUPPORT_FOR_TC	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeTerrainAwarenessAndGroundProximityAlertingCapability	
 <<CodeList>> CodeTerrainAwarenessAndGroundProximityAlertingCapability	
+CodeTerrainAwarenessAndGroundProximityAlertingCapability : + 1250_ALERTING	
+CodeTerrainAwarenessAndGroundProximityAlertingCapability : + 1650_ALERTING	
+CodeTerrainAwarenessAndGroundProximityAlertingCapability : + 950_ALERTING	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeTransponderType	
 <<CodeList>> CodeTransponderType	
+CodeTransponderType : + MODE_1	
+CodeTransponderType : + MODE_2	
+CodeTransponderType : + MODE_3A	
+CodeTransponderType : + MODE_4	
+CodeTransponderType : + MODE_5	
+CodeTransponderType : + MODE_C	
+CodeTransponderType : + MODE_S	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeWakeTurbulenceCategoryType	
 <<CodeList>> CodeWakeTurbulenceCategoryType	
+CodeWakeTurbulenceCategoryType : + CAT_A	
+CodeWakeTurbulenceCategoryType : + CAT_B	
+CodeWakeTurbulenceCategoryType : + CAT_C	
+CodeWakeTurbulenceCategoryType : + CAT_D	
+CodeWakeTurbulenceCategoryType : + CAT_E	
+CodeWakeTurbulenceCategoryType : + CAT_F	
+CodeWakeTurbulenceCategoryType : + HEAVY	
+CodeWakeTurbulenceCategoryType : + LIGHT	
+CodeWakeTurbulenceCategoryType : + MEDIUM	
+CodeWakeTurbulenceCategoryType : + SUPER	
+CodeWakeTurbulenceCategoryType : + UNDEFINED	
 ```	
 	
 ```mermaid	
 classDiagram	
 class CodeWakeVortexClassificationType	
 <<CodeList>> CodeWakeVortexClassificationType	
+CodeWakeVortexClassificationType : + H	
+CodeWakeVortexClassificationType : + HE	
+CodeWakeVortexClassificationType : + L	
+CodeWakeVortexClassificationType : + MH	
+CodeWakeVortexClassificationType : + MJ	
+CodeWakeVortexClassificationType : + MT	
 ```	
 	
