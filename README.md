@@ -2,26 +2,21 @@
 classDiagram	
 class AeroplaneConfiguration	
 <<Data_Entity>> AeroplaneConfiguration	
-link AeroplaneConfiguration "https://airm.aero/developers/advanced-search/1.0.0/AeroplaneConfiguration?model=LogicalModel" "Go to definition"	
 AeroplaneConfiguration : + areAirBrakesDeployed [0..1] Boolean	
 AeroplaneConfiguration : + flaps [0..1] CharacterString	
 AeroplaneConfiguration : + isLandingGearDeployed [0..1] Boolean	
 AeroplaneConfiguration : + slats [0..1] CharacterString	
 class RouteTrajectoryPoint	
 <<Data_Entity>> RouteTrajectoryPoint	
-link RouteTrajectoryPoint "https://airm.aero/developers/advanced-search/1.0.0/RouteTrajectoryPoint?model=LogicalModel" "Go to definition"	
 AeroplaneConfiguration --> RouteTrajectoryPoint : +trajectoryPoint [0..1]	
 class AircraftCapability	
 <<Data_Entity>> AircraftCapability	
-link AircraftCapability "https://airm.aero/developers/advanced-search/1.0.0/AircraftCapability?model=LogicalModel" "Go to definition"	
 AircraftCapability <-- AeroplaneConfiguration : +aircraftCapability [0..*]	
 class AircraftEquipment	
 <<Data_Entity>> AircraftEquipment	
-link AircraftEquipment "https://airm.aero/developers/advanced-search/1.0.0/AircraftEquipment?model=LogicalModel" "Go to definition"	
 AircraftEquipment <-- AeroplaneConfiguration : +configurationItem [0..*]	
 class Aircraft	
 <<Data_Entity>> Aircraft	
-link Aircraft "https://airm.aero/developers/advanced-search/1.0.0/Aircraft?model=LogicalModel" "Go to definition"	
 AeroplaneConfiguration --> Aircraft : +configured [0..1]	
 AeroplaneConfiguration : + noiseCertification [0..1] CodeNoiseCertificationType	
 AeroplaneConfiguration: -------------------generic-----------------------	
